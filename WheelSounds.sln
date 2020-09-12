@@ -1,7 +1,15 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1209
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WheelSounds", "WheelSounds\WheelSounds.csproj", "{D2445D75-2A18-4C8D-BF05-7FB9B76CD42A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6C88DF42-8D23-49A9-80B3-BEC10961155B}"
+	ProjectSection(SolutionItems) = preProject
+		GameData\WheelSounds\ModuleManager_WheelSounds.cfg = GameData\WheelSounds\ModuleManager_WheelSounds.cfg
+		GameData\WheelSounds\Plugins\WheelSounds.version = GameData\WheelSounds\Plugins\WheelSounds.version
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD1D4F91-2EC8-4BC6-B44F-A039DF8F4507}
 	EndGlobalSection
 EndGlobal
